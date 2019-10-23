@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet"
+          href="../styles/scroll.css">
+  </head>
+  <body>
+
+<!-- SLOW LEFT -->
+
+    <h2 class="scroll"
+        href="notes.html"
+        data-direction="horizontal"
+        data-rateY="1"
+        data-rateX="-0.5" >
+      SCROLLING EFFECTS!
+    </h2>
+
+
+<!-- QUICK LEFT -->
+
+    <div class="scroll intro"
+         data-direction="horizontal"
+         data-rateY="1"
+         data-rateX="-2">
+      <h1 class="">
+        Scroll This Page To The Bottom
+        for links to the code
+      </h1>
+    </div>
+
+
+<!-- TRIPLE OFFSET -->
+
+    <section>
+      <ul>
+        <li class="scroll"
+            data-rate="0.1"
+            data-direction="vertical">
+          PAR
+        </li>
+        <li class="scroll"
+            data-rate="0.3"
+            data-direction="vertical">
+          AL
+        </li>
+        <li class="scroll"
+            data-rate="0.2"
+            data-direction="vertical">
+          LAX
+        </li>
+      </ul>
+    </section>
+
+<!-- DIAGONAL HOME BUTTON -->
+
+    <a class="scroll ball"
+       href="notes.html"
+       data-direction="horizontal"
+       data-rateY="0.1"
+       data-rateX="0.2"
+    > <span class="">Home</span> </a>
+
+<!-- TRIPLE BOX COMPRESSION -->
+
+    <section class="last">
+      <p class="scroll"
+         data-rate="0.05"
+         data-direction="vertical">
+        <a href="../script/scroll.js"
+           target="_blank">
+          Click Here!
+        </a>
+        to see the JavaScript
+      </p>
+
+      <p class="scroll"
+         data-rate="0.1"
+         data-direction="vertical">
+        <a href="../styles/scroll.css"
+           target="_blank">
+          Click Here!
+        </a>
+        to see the CSS
+      </p>
+
+      <p class="scroll"
+         data-rate="0.15"
+         data-direction="vertical">
+        <a href="../text/scroll.txt"
+           target="_blank">
+          Click Here!
+        </a>
+        to see the HTML
+      </p>
+    </section>
+
+    <script src="../script/scroll.js">
+    </script>
+
+  </body>
+</html>

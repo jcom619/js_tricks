@@ -1,0 +1,152 @@
+/* #################################### */
+
+/* ALL PARALLAX DEFINITIONS HERE! */
+
+/* #################################### */
+
+
+body {
+  background-color: #006273;
+  background-image: url(
+    "https://www.transparenttextures.com/patterns/checkered-light-emboss.png"
+  );
+  /* PARALLAX requires backgound absolute */
+  background-attachment: absolute;
+}
+
+/* #################################### */
+
+
+h2, h3, h4 {
+  font-family: Copperplate;
+  text-shadow: 0px 0px 5px black;
+  color: rgba(250, 250, 250, 0.725);
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5{
+  font-family: Copperplate;
+  font-size: 25px;
+  font-style: oblique;
+}
+ul {
+  list-style-type: none;
+}
+a, p {
+  color: black;
+}
+
+
+
+.content {
+  color: red;
+  text-shadow: 0px 0px 5px white;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+
+  border: 1px solid rgba(0,0,0,0.7);
+  padding: 10px;
+}
+
+.navbar {
+  box-shadow: 0px 0px 50px 10px black;
+}
+.rocket {
+  margin-bottom: -900px;
+}
+.scroll {
+  position: absolute;
+  width: 100vw;
+
+}
+.cards {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.image {
+  z-index: 10;
+}
+/* .rocket {
+  z-index: -1;
+  margin-top: 20vh;
+  margin-left: 10vw;
+} */
+.Table {
+  color: rgba(200, 200, 200, 0.9);
+}
+.thumbnail {
+  box-shadow: 0px 0px 50px 1px black;
+  margin-top: 30px;
+  margin-bottom: 60PX;
+}
+#intro {
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 80px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 50px 10px black;
+}
+
+
+/* STARS */
+
+
+
+@import "susy";
+@import "compass/reset";
+
+.stars, .twinkling, .clouds {
+	position:absolute;
+	display:block;
+	top:0; bottom:0;
+	left:0; right:0;
+	width:100%; height:100%;
+}
+
+.stars {
+	z-index: -5;
+  height: 100vh;
+	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+}
+
+.twinkling{
+	z-index: -4;
+  bottom: 0px;
+  background-attachment: absolute;
+
+
+	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+	animation: move-twinkle-back 200s linear infinite;
+}
+
+@keyframes move-twinkle-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+	from {background-position:0 0;}
+	to {background-position:10000px 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

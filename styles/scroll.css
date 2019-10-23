@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(10,30,20,0.7);
+  background-image:
+  url(
+    "https://www.transparenttextures.com/patterns/argyle.png"
+  );
+  color: rgba(150,120,13,1);
+  height: 100vh;
+  font-size: 2em;
+  text-shadow: 0px 0px 10px black;
+}
+section {
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+}
+.intro {
+
+
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(155, 155, 155, 0.5);
+  border-right: 2px solid rgba(155, 155, 155, 0.5);
+  background: rgba(150,20,30,0.5);
+  text-align: center;
+  padding: 15px;
+  margin: 10%;
+  margin-top: 20%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px black;
+}
+h1 {
+  color: rgba(200,220,30,1);
+  font-size: 3rem;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 2.5em;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+  border-right: 1px solid rgba(155, 155, 155, 0.5);
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px black;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: middle;
+  place-items: center;
+  height: 100vh;
+  font-size: 3em;
+}
+li {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+  border-right: 1px solid rgba(155, 155, 155, 0.5);
+  margin: 5px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px black;
+
+}
+a {
+  text-decoration: none !important;
+  color: rgba(200,20,30,1);
+}
+
+.ball {
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(150,20,30,0.5);
+  border-radius: 50%;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(155, 155, 155, 0.5);
+  border-right: 2px solid rgba(155, 155, 155, 0.5);
+  font-size: 50px;
+  color: rgba(100,120,30,1);
+  text-align: center;
+  box-shadow: 0px 0px 20px black;
+}
+
+.last {
+  margin-bottom: 50px;
+}
