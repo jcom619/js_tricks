@@ -76,6 +76,15 @@ a, p {
   margin-top: 20vh;
   margin-left: 10vw;
 } */
+
+.parLink {
+  font-size: 50px;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 0px 0px 20px green;
+
+}
+
 .Table {
   color: rgba(200, 200, 200, 0.9);
 }
